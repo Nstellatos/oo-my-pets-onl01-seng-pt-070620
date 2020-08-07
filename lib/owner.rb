@@ -35,6 +35,7 @@ def feed_cats
 end
 def sell_pets
   self.cats.each do |cat|
+    self.cats.delete(cat)
     
   
 end
