@@ -34,7 +34,7 @@ def feed_cats
   self.cats.each {|cat| cat.mood = "happy"}
 end
 def sell_pets
-  [fido, tabby].each { |o| o.mood = "nervous" }
+  self.each { |o| o.mood = "nervous" }
 end
     
 
